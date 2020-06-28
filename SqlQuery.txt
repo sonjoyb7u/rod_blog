@@ -1,0 +1,3 @@
+Query of Relation between two table () :- 
+
+ALTER TABLE `tbl_comments` ADD  CONSTRAINT `Foreign_Relation` FOREIGN KEY (`post_id`) REFERENCES `tbl_posts`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;
